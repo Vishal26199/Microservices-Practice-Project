@@ -43,5 +43,5 @@ def remove_product(id):
     products.remove(product)
     return '', 204
 
-if __name__ = "__main__":
+if __name__ == "__main__":
     app.run(port=8080,debug=True)
